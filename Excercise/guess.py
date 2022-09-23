@@ -12,7 +12,7 @@ while numberOfGuess <= 9:
     if inpu > 18:
         print("Grater then the value!!!")
     elif inpu == 18:
-        print("Congras you are winer\nNo.", numberOfGuess - 1, "Guess you tack to win")
+        print("Congratulation you are winner\nNo.", numberOfGuess - 1, "Guess you tack to win")
         break
     else:
         print("lesser then !")
