@@ -1,10 +1,12 @@
 # Dictionary is nothing but key value pairs
 d1 = {}
 # print(type(d1))
-d2 = {"Mrudul": "chicken",
-      "aman": "burger",
-      "ashutosh": "RotiSabji",
-      "shubham": {"brackfast": "chaii", "lunch": "roti", "diner": "egg"}}
+d2 = {
+    "Mrudul": "chicken",
+    "aman": "burger",
+    "ashutosh": "RotiSabji",
+    "shubham": {"brackfast": "chaii", "lunch": "roti", "diner": "egg"},
+}
 # print(d2["shubham"]["brackfast"])
 # print(d2["shubham"])
 # d2["ankit"] = "pizza"

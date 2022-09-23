@@ -7,7 +7,7 @@ print(len(mystr))  # length of mystr.
 # print(mystr[0::2])# 2 skip 2 charechter;
 # print(mystr[-18:])#print full string by negetive numbers
 # print(mystr[-18:-1])
-print(mystr[::-1])#revers string
+print(mystr[::-1])  # revers string
 
 # print(mystr.isalnum())
 print(mystr.endswith("boy"))
