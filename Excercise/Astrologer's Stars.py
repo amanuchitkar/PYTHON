@@ -1,6 +1,6 @@
 n = int(input("Enter a number: "))
 n2 = int(input("Enter 1 or 0: "))
-n3=bool(n2)
+n3 = bool(n2)
 
 if n3 == True:
     for i in range(1, n + 1):
