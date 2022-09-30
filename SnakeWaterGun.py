@@ -1,0 +1,38 @@
+import random
+
+game_opt = ("G", "S", "W")
+print("Rules are following\nYou get 10 chance to paly\n    G:gun\n    S:shack\n    W:water")
+user_score, cop_sore = 0, 0
+i = 1
+while i <= 10:
+    user_choice = input("Enter you'r choice G|S|W: ").upper()
+    copu_choice = random.choice(game_opt)
+    if user_choice not in game_opt:
+        print(f"Invalid input enter proper input, your chance left {10 - i}\n ")
+    else:
+        print(f"Computer choice is {copu_choice}")
+        winning_situation_user = (
+                (user_choice.__eq__("W")) and (copu_choice.__eq__("G")) or
+                (user_choice == "G") and (copu_choice == "S") or
+                (user_choice.__eq__("S")) and (copu_choice.__eq__("W"))
+        )
+        if user_choice == copu_choice:
+            print(f"Tai both choice are same {user_choice}, your chance left {10 - i}\n")
+            user_score += 1
+            cop_sore += 1
+        elif winning_situation_user:
+            print(f"You win, your chance left {10 - i}\n")
+            user_score += 1
+        else:
+            print(f"Computer win, your chance left {10 - i}\n")
+            cop_sore += 1
+    i += 1
+print("Game over!!")
+if cop_sore > user_score:
+    print("Computer won the series ")
+elif cop_sore == user_score:
+    print(f"Tai your both score same ")
+else:
+    print("You won the series")
+score_bord = f"Score bord as following:\nYou'r score {user_score}\nComputer score {cop_sore}"
+print(score_bord)
