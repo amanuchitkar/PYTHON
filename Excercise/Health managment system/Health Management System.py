@@ -1,7 +1,7 @@
 def getdate():
-    import datetime
+    import time
 
-    return datetime.datetime.now()
+    return time.asctime(time.localtime(time.time()))
 
 
 t = getdate()
