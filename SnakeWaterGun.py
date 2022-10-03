@@ -46,7 +46,7 @@ print("Rules are following:\nYou get 10 chance to play\n    G:gun\n    S:shack\n
       "\nFor Exit write exit()")
 start = input(": ").upper()
 if start == "START()" or start == "START":
-    game_logic()
     print("\n<GAME START>")
+    game_logic()
 else:
     print("Invalid input")
