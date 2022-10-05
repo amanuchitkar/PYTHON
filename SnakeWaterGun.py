@@ -4,7 +4,8 @@ import random
 def game_logic(signal_received=None):
     user_score, cop_sore = 0, 0
     i = 1
-    while i <= 10:
+    chance=int(10)
+    while i <= chance:
         user_choice = input("Enter your choice G|S|W: ").upper()
         copu_choice = random.choice(game_opt)
         if user_choice == "EXIT" or user_choice == "EXIT()" or user_choice == signal_received:
@@ -20,14 +21,14 @@ def game_logic(signal_received=None):
                     (user_choice.__eq__("S")) and (copu_choice.__eq__("W"))
             )
             if user_choice == copu_choice:
-                print(f"Tai both choice are same {user_choice}, your chance left {10 - i}\n")
+                print(f"Tai both choice are same {user_choice}, your chance left {chance - i} out of {chance}\n")
                 user_score += 1
                 cop_sore += 1
             elif winning_situation_user:
-                print(f"You win, your chance left {10 - i}\n")
+                print(f"You win, your chance left {chance - i} out of {chance}\n")
                 user_score += 1
             else:
-                print(f"Computer win, your chance left {10 - i}\n")
+                print(f"Computer win, your chance left {chance - i} out of {chance}\n")
                 cop_sore += 1
         i += 1
     print("<Game over!!>")
