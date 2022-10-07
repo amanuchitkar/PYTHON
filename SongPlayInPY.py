@@ -1,7 +1,7 @@
 from pygame import mixer
 
 mixer.init()
-mixer.music.load("Healthy_pro_life/song/2.mp3")
+mixer.music.load("Excercise/Healthy_pro_life/song/2.mp3")
 mixer.music.set_volume(0.8)
 mixer.music.play()
 while True:
