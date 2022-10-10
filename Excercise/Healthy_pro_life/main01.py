@@ -5,12 +5,16 @@ os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 
 from pygame import mixer as m
 
+day = "monday"
+with open(f"{day}_log.txt", "a") as f1:
+    f1.write(f"Today log start at: {time.asctime()}\n")
 
-def display(title, songName, mode, inp=None):
+
+def display(title, songName, mode):
     print(title)
     m.init()
     m.music.load(songName)
-
+    inp = " "
     m.music.play()
     while True:
         if mode == "Eye" or mode == "Physical":
@@ -19,10 +23,9 @@ def display(title, songName, mode, inp=None):
             inp = input(f"Did you drink 250ml water(Y or N): ").upper()
         if inp == "Y" or inp == "YES":
             m.music.stop()
-            f1 = open("log.txt", "a")
-            f1.write(f"{title.replace('Do', 'Done')} at: {time.asctime()}\n")
+            with open(f"{day}_log.txt", "a") as f2:
+                f2.write(f"{title.replace('Do', 'Done')} at: {time.asctime()}\n")
 
-            f1.close()
             break
         elif inp == "N" or inp == "NO":
             m.music.play()
@@ -44,12 +47,12 @@ try:
         if "09:00" <= time1 <= "21:00":
             # print(time.asctime())
             time1 = time.strftime("%H:%M")
-            if time.time() - eye_time >= 3600:
+            if time.time() - eye_time >= 1800:
                 title = "Do any eye Exersice"
                 display(title, "song/eyes.mp3", "Eye")
                 eye_time = time.time()
 
-            elif time.time() - water_time >= 2400:
+            elif time.time() - water_time >= 3600:
                 title = "Drink water"
                 display(title, "song/water.mp3", "Water")
                 water_time = time.time()
@@ -60,5 +63,6 @@ try:
         else:
             print("You had a good day..")
             break
+
 except KeyboardInterrupt:
     print("\nProgram stopped by user..!!")
