@@ -5,7 +5,7 @@ os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 
 from pygame import mixer as m
 
-day = "monday"
+day = "Tuesday"
 with open(f"{day}_log.txt", "a") as f1:
     f1.write(f"Today log start at: {time.asctime()}\n")
 
@@ -22,6 +22,7 @@ def display(title, songName, mode):
         elif mode == "Water":
             inp = input(f"Did you drink 250ml water(Y or N): ").upper()
         if inp == "Y" or inp == "YES":
+            print("Done")
             m.music.stop()
             with open(f"{day}_log.txt", "a") as f2:
                 f2.write(f"{title.replace('Do', 'Done')} at: {time.asctime()}\n")
