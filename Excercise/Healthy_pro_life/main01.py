@@ -5,7 +5,7 @@ os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 
 from pygame import mixer as m
 
-day = "monday"
+day = "wednesday"
 with open(f"{day}_log.txt", "a") as f1:
     f1.write(f"Today log start at: {time.asctime()}\n")
 
