@@ -5,7 +5,7 @@ os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 
 from pygame import mixer as m
 
-day = "wednesday"
+day = "saturday"
 with open(f"{day}_log.txt", "a") as f1:
     f1.write(f"Today log start at: {time.asctime()}\n")
 
@@ -48,16 +48,16 @@ try:
         if "09:00" <= time1 <= "21:00":
             # print(time.asctime())
             time1 = time.strftime("%H:%M")
-            if time.time() - eye_time >= 1800:
+            if time.time() - eye_time >= 30 * 60:  # 1/2 hour
                 title = "Do any eye Exersice"
                 display(title, "song/eyes.mp3", "Eye")
                 eye_time = time.time()
 
-            elif time.time() - water_time >= 3600:
+            elif time.time() - water_time >= 60 * 60:  # 1 hour
                 title = "Drink water"
                 display(title, "song/water.mp3", "Water")
                 water_time = time.time()
-            elif time.time() - physical_time >= 9000:
+            elif time.time() - physical_time >= 150*60:  # 2.5 hour
                 title = "Do some physical exersice"
                 display(title, "song/physical.mp3", "Physical")
                 physical_time = time.time()

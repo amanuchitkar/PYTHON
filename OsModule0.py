@@ -1,0 +1,15 @@
+import os
+
+# print(dir(os))
+# print(os.getcwd())
+# os.chdir("F://")
+# print(os.getcwd())
+# open("aman.txt")
+# os.mkdir("this")
+# os.makedirs("this/that")
+# os.rename("aman.txt","books.txt")
+# print(os.environ.get("path"))
+# print(os.path.join("C://", "/aman2.txt"))
+# print(os.path.exists("C://Program Files"))
+# print(os.path.isfile("C://"))
+# print(os.path.isdir("C://"))

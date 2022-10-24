@@ -1,6 +1,20 @@
-aman is a good boy
-more in files
-aman is a jhsaj boy
-aman jjjjjjjjjjfn boy
-aman
-aman pppppopdoasdfghjkll;
+'To Kill a Mockingbird by Harper Lee',
+'The Great Gatsby by F Scott Fitzgerald',
+'Things Fall Apart by Chinua Achebe',
+'Moby-Dick by Herman Melville',
+'The Color Purple by Alice Walker',
+'Catch-22 by Joseph Heller',
+'Atlas Shrugged by Ayn Rand',
+'The Lord of the Rings by J.R.R. Tolkien',
+'Harry Potter and the Philosopher Stone by J.K. Rowling',
+'Diary of a Wimpy Kid: Old School by Jeff Kinney',
+'The BFG by Roald Dahl',
+'Harry Potter and the Chamber of Secrets by J.K. Rowling',
+'Harry Potter and the prisoner of Azkaban by J.K. Rowling',
+'Diary of a Wimpy Kid: Double Down by Jeff Kinney',
+'Awful Auntie by David Walliams',
+'Diary of a Wimpy Kid: by Hard Luck Jeff Kinney',
+'Wonder by R.J. Palacio',
+'James and the Giant Peach by Roald Dahl',
+'Ratburger by David Walliams',
+'Matilda by Roald Dahl'
