@@ -1,29 +1,31 @@
 import os
 
 
-def system(path, fileN, forma):
-    path = path
-    fileN = fileN
+def system(path, fileN, forme):
     os.chdir(path)
-    with open(fileN) as fi:
-        var = fi.read()
+    f = open(fileN)
+    read = f.read()
+    f.close()
     count = 1
     for i in os.listdir():
-        Name, Forma = os.path.splitext(i)
-        if Forma == f".{forma}":
+        fname, Forma = os.path.splitext(i)
+
+        if Forma == f".{forme}":
             newname = f"{str(count)}{Forma}"
             count += 1
             os.rename(i, newname)
-        elif Name not in var:
-            ti = Name.title()
+
+        elif fname not in read:
+            ti = fname.title()
             Newname = f"{ti}{Forma}"
             os.rename(i, Newname)
         else:
-            Newname = f"{Name}{Forma}"
-            os.rename(i, Newname)
+            sm = fname.lower()
+            NewName = f"{sm}{Forma}"
+            os.rename(i, NewName)
 
 
 p = input("path: ")
 f = input("file name: ")
-e = input("fileformat: ")
+e = input("file format: ")
 system(p, f, e)
