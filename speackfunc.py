@@ -6,5 +6,8 @@ def Speak(a):
     speak.Speak(a)
 
 
-Speak("""am figuring out the differences between the pickle.load() and pickle.loads(). Somebody said what kind of 
-object that pickle.load() process is "file_like_object", however, pickle.loads() corresponds to "file object".""" )
+Speak(
+    """Raised when the interpreter finds an internal error, but the situation does not look so serious to cause it to abandon all hope. The associated value is a string indicating what went wrong (in low-level terms).
+
+You should report this to the author or maintainer of your Python interpreter. Be sure to report the version of the Python interpreter (sys.version; it is also printed at the start of an interactive Python session), the exact error message (the exception’s associated value) and if possible the source of the program that triggered the error."""
+)

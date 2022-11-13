@@ -4,10 +4,10 @@ import os
 def system(path, fileN, forme):
     os.chdir(path)
     f = open(fileN)
-    read = f.read()
+    read = f.read().split()
     f.close()
     count = 1
-    for i in os.listdir():
+    for i in os.listdir(path):
         fname, Forma = os.path.splitext(i)
 
         if Forma == f".{forme}":
