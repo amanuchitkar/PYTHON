@@ -4,7 +4,7 @@ import random
 def game_logic(signal_received=None):
     user_score, cop_sore = 0, 0
     i = 1
-    chance=int(10)
+    chance = int(10)
     while i <= chance:
         user_choice = input("Enter your choice G|S|W: ").upper()
         copu_choice = random.choice(game_opt)
