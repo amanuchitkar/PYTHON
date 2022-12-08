@@ -24,7 +24,7 @@
 
 # while True:
 #     choice = int(input("1.For age\n2.For DOB\n3.For exit\n: "))
-   
+
 #     if choice == 1:
 #         Age()
 #     elif choice == 2:
@@ -38,24 +38,23 @@
 
 # ---------------------------cWh_______________________________
 
-yearage=int(input("Enter your age or DOB: "))
-isage=False
-isyear=False
-    
-if len(str(yearage))==4:
-    isyear=True
-else:
-    isage=True
+yearage = int(input("Enter your age or DOB: "))
+isage = False
+isyear = False
 
-if (yearage<1900 and isyear):
+if len(str(yearage)) == 4:
+    isyear = True
+else:
+    isage = True
+
+if yearage < 1900 and isyear:
     print("You seem oldest person alive")
-elif (yearage>2022):
+elif yearage > 2022:
     print("You not born yet")
 
-
 if isage:
-    yearage=2022-yearage
+    yearage = 2022 - yearage
 
-print(f"You will be 100 year old in {yearage+100} ")
+print(f"You will be 100 year old in {yearage + 100} ")
 interestedYear = int(input("Enter the year you want to know your age in: "))
-print(f"You will be {interestedYear-yearage} year old in {interestedYear}")
+print(f"You will be {interestedYear - yearage} year old in {interestedYear}")
