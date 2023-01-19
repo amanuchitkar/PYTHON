@@ -10,12 +10,13 @@ def Speak(a):
 
 
 req = requests.get(
-    "https://newsapi.org/v2/top-headlines?country=us&apiKey=4fa33d39840c41d0be613d3e88af5802")
-# https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=4fa33d39840c41d0be613d3e88af5802
-# https://newsapi.org/v2/top-headlines?country=us&apiKey=4fa33d39840c41d0be613d3e88af5802
-# https://newsapi.org/v2/everything?q=tesla&from=2022-09-29&sortBy=publishedAt&apiKey=4fa33d39840c41d0be613d3e88af5802
-# https://newsapi.org/v2/everything?q=tesla&from=2022-09-29&sortBy=publishedAt&apiKey=4fa33d39840c41d0be613d3e88af5802
-# https://newsapi.org/v2/everything?q=bitcoin&apiKey=4fa33d39840c41d0be613d3e88af5802
+    # "https://newsapi.org/v2/top-headlines?country=us&apiKey=4fa33d39840c41d0be613d3e88af5802"
+    # "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=4fa33d39840c41d0be613d3e88af5802"
+    # "https://newsapi.org/v2/top-headlines?country=us&apiKey=4fa33d39840c41d0be613d3e88af5802"
+    # "https://newsapi.org/v2/everything?q=tesla&from=2022-09-29&sortBy=publishedAt&apiKey=4fa33d39840c41d0be613d3e88af5802"
+    #  "https://newsapi.org/v2/everything?q=tesla&from=2022-09-29&sortBy=publishedAt&apiKey=4fa33d39840c41d0be613d3e88af5802"
+    "https://newsapi.org/v2/everything?q=bitcoin&apiKey=4fa33d39840c41d0be613d3e88af5802"
+)
 tex = req.text
 txt = json.loads(tex)
 # txt = req.json()
