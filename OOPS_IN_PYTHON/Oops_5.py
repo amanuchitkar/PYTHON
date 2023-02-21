@@ -17,8 +17,8 @@ class Employee:
     def from_str(cls, string):
         # params = string.split("-")
         # return cls(params[0], params[1], params[2])
-        return cls(*string.split("/"))
-        # return cls(*string.split("-"))
+        # return cls(*string.split("/"))
+        return cls(*string.split("-"))
 
 
 nayan = Employee("Nayan", 499, "Government job")

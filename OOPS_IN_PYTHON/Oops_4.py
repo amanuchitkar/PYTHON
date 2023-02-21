@@ -15,6 +15,8 @@ class Employee:
 
 
 nayan = Employee("Nayan kolhatkar", 25555, "Government officer")
-# Employee.no_of_leaves=34
+# print(nayan.print_a())
+# print(nayan.no_of_leaves)
+# Employee.no_of_leaves = 34
 nayan.change_leaves(34)
 print(nayan.no_of_leaves)
