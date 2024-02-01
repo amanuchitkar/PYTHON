@@ -18,9 +18,10 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://www.linkedin.com/in/aman-uchitkar-44757020a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Aman Uchitkar" height="30" width="40" /></a>
+<a href="https://www.instagram.com/aman_uchitkar02/" target="blank"><img align="center" src="/instagram.png" alt="Aman Uchitkar" height="30" width="40" /></a>
 </p>
 
-<a href="https://www.instagram.com/aman_uchitkar02/" class="text-underline font-size-sm" target="_blank">Instagram</a> by <a href="/instagram.png" class="text-underline font-size-sm" target="_blank" height="30" width="40"></a>
+
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aman-uchitkar-44757020a/)
 [![LinkedIn](/gcp.jpeg)](https://www.cloudskillsboost.google/public_profiles/7308881d-94e0-4843-ae8a-40753fe95f60)
