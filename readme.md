@@ -30,8 +30,3 @@
 ![amanuchitkar's Stats](https://github-readme-stats.vercel.app/api?username=amanuchitkar&theme=dracula&show_icons=true&hide_border=true&count_private=true)<br/>
 ![amanuchitkar's Streak](https://github-readme-streak-stats.herokuapp.com/?user=amanuchitkar&theme=dracula&hide_border=true)<br/>
 ![amanuchitkar's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=amanuchitkar&theme=dracula&show_icons=true&hide_border=true&layout=compact)
-=======
-![latish705's Stats](https://github-readme-stats.vercel.app/api?username=amanuchitkar&theme=dracula&show_icons=true&hide_border=true&count_private=true)<br/>
-![latish705's Streak](https://github-readme-streak-stats.herokuapp.com/?user=amanuchitkar&theme=dracula&hide_border=true)<br/>
-![latish705's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=amanuchitkar&theme=dracula&show_icons=true&hide_border=true&layout=compact)
->>>>>>> 48a6e108bee07326c2f864b2835d307ed13f408b
