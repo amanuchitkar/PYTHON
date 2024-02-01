@@ -19,15 +19,29 @@
 <p align="left">
 <a href="https://www.linkedin.com/in/aman-uchitkar-44757020a/" target="blank"><img align="center" src="/linkedin.png" alt="Aman Uchitkar" height="40" width="40" /></a>
 <a href="https://www.instagram.com/aman_uchitkar02/" target="blank"><img align="center" src="/instagram.png" alt="Aman Uchitkar" height="40" width="40" /></a>
+<a href="amanuchitkar@gmail.com" target="blank"><img align="center" src="/gmail.png" alt="Aman Uchitkar" height="40" width="40" /></a>
 </p>
 
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aman-uchitkar-44757020a/)
-<a href="https://www.cloudskillsboost.google/public_profiles/7308881d-94e0-4843-ae8a-40753fe95f60" target="blank"><img align="center" src="/gcp.jpeg" alt="Aman Uchitkar" height="40" width="50" /></a>
-[![LinkedIn](https://img.shields.io/badge/Google Cloud-%23000000.svg?style=for-the-badge&logo=google&logoColor=#00C7B7)]()
+<a href="https://www.cloudskillsboost.google/public_profiles/7308881d-94e0-4843-ae8a-40753fe95f60" target="blank"><img align="center" src="/gcp.jpeg" alt="Aman Uchitkar" height="40" width="60" /></a>
+
+![Google Cloud](https://img.shields.io/badge/Google-Cloud-%23000000.svg?style=for-the-badge&logo=google&logoColor=#00C7B7)
 # 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Sqlite](https://img.shields.io/badge/SQLite-%23000000.svg?style=for-the-badge&logo=sqlite&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Django](https://img.shields.io/badge/Django-%23054000.svg?style=for-the-badge&logo=django&logoColor=white)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) 
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
+![Sqlite](https://img.shields.io/badge/SQLite-%23000000.svg?style=for-the-badge&logo=sqlite&logoColor=#00C7B7) 
+![GCP](https://img.shields.io/badge/GoogleCloud-%23000000.svg?style=for-the-badge&logo=GoogleCloud&logoColor=blue) 
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) 
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) 
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) 
+![Django](https://img.shields.io/badge/Django-%23054000.svg?style=for-the-badge&logo=django&logoColor=white)
 
 # 📊 GitHub Stats:
 ![amanuchitkar's Stats](https://github-readme-stats.vercel.app/api?username=amanuchitkar&theme=dracula&show_icons=true&hide_border=true&count_private=true)<br/>
