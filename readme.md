@@ -1,4 +1,4 @@
-![MasterHead](https://img.freepik.com/free-vector/science-project-twitch-banner_23-2150894772.jpg?w=1480&t=st=1702893561~exp=1702894161~hmac=c9c9b4b47174aadfc6061c65c4120a78e514d49d7b7296b559c4277903667a56)
+![MasterHead](/baner.png)
 
 <h1 align="center">Hi 👋, I'm Aman Uchitkar</h1>
 <h3 align="center">A passionate Full Stack developer from India</h3>
