@@ -23,9 +23,10 @@
 
 
 ## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aman-uchitkar-44757020a/)
+<!-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aman-uchitkar-44757020a/) -->
 <a href="https://www.instagram.com/aman_uchitkar02/" target="blank"><img align="center" src="/instagram.png" alt="Aman Uchitkar" height="40" width="40" /></a>
-<a href="https://www.cloudskillsboost.google/public_profiles/7308881d-94e0-4843-ae8a-40753fe95f60" target="blank"><img align="center" src="/google-cloud.png" alt="Aman Uchitkar" height="40" width="60" /></a>
+<a href="https://www.linkedin.com/in/aman-uchitkar-44757020a/" target="blank"><img align="center" src="/linkedin.png" alt="Aman Uchitkar" height="40" width="40" /></a>
+<a href="https://www.cloudskillsboost.google/public_profiles/7308881d-94e0-4843-ae8a-40753fe95f60" target="blank"><img align="center" src="/google-cloud.png" alt="Aman Uchitkar" height="40" width="40" /></a>
 
 <!-- ![Google Cloud](https://img.shields.io/badge/Google-Cloud-%23000000.svg?style=for-the-badge&logo=google&logoColor=#00C7B7) -->
 # 💻 Tech Stack:
