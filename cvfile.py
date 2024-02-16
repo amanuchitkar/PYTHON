@@ -1,5 +1,4 @@
-2223SJS10
-2223SJM1000013286-main
+
 import face_recognition
 import cv2
 import numpy as np
