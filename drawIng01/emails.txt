@@ -1,0 +1,1 @@
+['enquiry@alliance.edu.in', 'vc@alliance.edu.in', 'anubha@alliance.edu.in', 'registrar@alliance.edu.in', 'exams@alliance.edu.in', 'placement@alliance.edu.in', 't@alliance.edu.in', 'chatterjee@alliance.edu.in', 'chebbi@alliance.edu.in', 'hrd@alliance.edu.in', 'verify@alliance.edu.in', 'enquiry@alliance.edu.in']
