@@ -1,13 +1,10 @@
-def dacimal_to_binary(decimal_num):
-    binary_num=""
-    if decimal_num==0:
-        return "0"
-    while decimal_num>0:
-        reminder=decimal_num%2
-        binary_num=str(reminder)+binary_num
-        decimal_num//=2
-    return binary_num
-
 dacimal_num=35
-binary_num=dacimal_to_binary(dacimal_num)
-print(f"The Dacimal Number {dacimal_num} in Binary is {binary_num}")
+old_dacimal_num=dacimal_num
+binary_num=""
+if dacimal_num==0:
+        print("0")
+while dacimal_num>0:
+        remainder=dacimal_num%2
+        binary_num=str(remainder)+binary_num
+        dacimal_num//=2
+print(f"The Dacimal Number {old_dacimal_num} in Binary is {binary_num}")
