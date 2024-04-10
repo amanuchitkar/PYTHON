@@ -5,7 +5,7 @@ if set(binary)<={"1","0"}:
     for bit in binary:
         decimalOut+=int(bit)*(2**power)
         power-=1
-    print(decimalOut)
+    print(decimalOut) #35
 
 # binary_input = input("Enter a binary number: ")
 
