@@ -16,7 +16,7 @@ def count_keywords(file_path, keywords):
 keywords = ["if", "else", "elif", "for", "while", "def", "class", "import", "from", "return"]
 
 # Example usage
-file_path = "keyword.py"  # Replace with the path to your file
+file_path = "keywordFinder.py"  # Replace with the path to your file
 keyword_count = count_keywords(file_path, keywords)
 if keyword_count != -1:
     print("Number of keywords in the file:", keyword_count)
