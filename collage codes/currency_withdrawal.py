@@ -12,8 +12,8 @@ try:
 
         # Calculate the number of notes for each denomination
         for denom in denominations:
-            print(f"Denomination: {denom}")
-            print(f"Amount: {amount//denom}")
+            # print(f"Denomination: {denom}")
+            # print(f"Amount: {amount//denom}")
             notes_count[denom] = amount // denom
             amount = amount % denom
 
