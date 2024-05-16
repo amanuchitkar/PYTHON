@@ -22,6 +22,7 @@ try:
         for denom in denominations:
             if notes_count[denom] > 0:
                 print(f"{denom} : {notes_count[denom]}")
+                
 
 except ValueError:
     print("Invalid input. Please enter a numeric value.")
