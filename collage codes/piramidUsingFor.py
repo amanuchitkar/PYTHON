@@ -2,7 +2,7 @@ row=5
 # using row multiplication method
 
 # for i in range(row):
-    # print(" "*i+"*"*(row-i))
+#     print(" "*i+"*"*(row-i))
     # print(" "*(row-i)+"*"*i)
 
     # print(" "*i+"* "*(row-i))

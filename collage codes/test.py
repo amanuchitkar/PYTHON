@@ -1,11 +1,16 @@
-a="amanuchitkar@gmail.com"
-b=0
-for i in a:
-    if i=="@":
-        print(b)
-        break
-    b+=1
-print(a[0:b])
+# n=5
+# i=0
+# while i<n:
+#     # print(" "*(n-i)+"*"*i)
+#     print("*"*(n-i)+" "*i)
+#     i+=1
 
 
-    
+n=
+for i in range (infinity+1):
+    for j in range (i):
+        print("*",end=" ")
+    print( )
+
+
+
